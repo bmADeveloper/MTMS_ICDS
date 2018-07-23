@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:height="28dp"
+    android:width="45dp"  >
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle" >
+        <stroke android:width="0.5dp" android:color="#070378" />
+        <corners android:bottomLeftRadius="9dp"
+            android:topLeftRadius="9dp"
+            android:bottomRightRadius="9dp"
+            android:topRightRadius="9dp"
+            />
+
+    </shape>
+</item>
+<item android:drawable="@drawable/gallery_camera"
+    android:height="30dp"
+    android:width="40dp"
+    android:gravity="center_horizontal"
+    ></item>
+</layer-list>

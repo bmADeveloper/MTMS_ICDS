@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#303F9F</color>
+    <color name="colorAccent_r">#FF4081</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="lightgraycolor">#D7DBDD</color>
+    <color name="deepblue">#1A5276</color>
+    <color name="deepgraycolor">#424949</color>
+    <color name="greencolor">#1E800F</color>
+    <color name="success_green">#0e6d0a</color>
+</resources>

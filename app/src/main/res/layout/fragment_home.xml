@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nic.barun.mobilebasedtrackingmonitaringsystemforicdsmbtmsicds.AllMenuFragment.HomeFragment">
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="30dp"
+        android:text="MTMS ICDS Jalpaiguri"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="#cc042459"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/Bdemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_shap"
+        android:text="Visiting details"
+        android:textColor="#ffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/Bassign_data_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Bdemo"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_shap"
+        android:text="Visit Report"
+        android:textColor="#ffff"
+        android:textSize="20dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="195dp"
+        android:gravity="center">
+        <CheckBox
+            android:id="@+id/Cone_day_report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Bassign_data_report"
+            android:text="One day visited assignment report"
+            android:textColor="@color/deepblue"
+            android:textSize="18dp" />
+        <EditText
+            android:id="@+id/Edate_pick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:hint="Pick any date"
+            android:textColor="@color/deepblue"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="265dp"
+        android:gravity="center">
+        <CheckBox
+            android:id="@+id/Cweekly_data_report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout2"
+            android:text="visited assign. report from Current date"
+            android:textColor="@color/deepblue"
+            android:textSize="18dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/Eweekly_date_pick_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:hint="From               "
+                android:textColor="@color/deepblue"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/Eweekly_date_pick_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:hint="To                   "
+            android:textColor="@color/deepblue"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="297dp"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/Cany_date_report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Cweekly_data_report"
+            android:layout_marginTop="45dp"
+            android:text="Any date visited assignment report"
+            android:textColor="@color/deepblue"
+            android:textSize="18dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="375dp">
+
+        <EditText
+            android:id="@+id/Edate_pick_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:hint="From                      "
+            android:textColor="@color/deepblue"
+            android:layout_marginLeft="70dp"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/Edate_pick_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:hint="To                         "
+            android:textColor="@color/deepblue"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="90dp">
+    <Button
+        android:id="@+id/Bgenerate_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Bdemo"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_shap"
+        android:text="Generate Report"
+        android:textColor="#ffff"
+        android:textSize="20dp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

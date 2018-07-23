@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">MTMS_ICDS</string>
+    <string name="title_activity_main">MBTS ICDS</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">ICDS</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">
+    </string>
+
+    <!--TODO: spinner yes/no list-->
+    <string name="YesNo_prompt">Yes No</string>
+    <string-array name="yesno_arrays">
+        <item>Choose any option</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <!--TODO: spinner open/close list-->
+    <string name="OpenClose_prompt">open Close</string>
+    <string-array name="openclose_arrays">
+        <item>Choose any option</item>
+        <item>Open</item>
+        <item>Close</item>
+    </string-array>
+
+
+    <string name="radio_yes">Yes</string>
+    <string name="radio_no">No</string>
+    <string name="btn_display">Display</string>
+    <string name="birthday"> Date of Birth</string>
+
+
+    <string name="html">
+        <![CDATA[
+        <body bgcolor="#D7DBDD">
+        <h1><font color="#9f7c7d"><p align="center" >Guidelines for Assignment</p></font></h1>
+         <b><marquee behavior="scroll" direction="up" height="400" scrolldelay="300" onmouseover="this.stop();" onmouseout="this.start();">
+        <font color="#4e3839"> Follow the following rules while filling up the assignment data:</font>
+             <ol type="1">
+
+                  <li>In the first page of the assignment you have to enter the center code.i.e last 6 digit of the centre code ex-if centre code is 19328<u>270101</u> then write "270101"</li>
+                 <li>Then click on the radio button beside it,check the centre name and other details before moving on to the next page.</li>
+                  <li>In the next page ,if AWC building doesnot exists select option <i>No</i> and click on the two checkboxes and click on Data Save button.</li>
+                  <li>If AWC building exists but closed, then choose the <i>Closed</i> button in the second option.Surely click the two square boxes and Data Save button before submitting the data.</li>
+                  <li>After clicking on <i>Upload latitude and longitude</i> option,please waite until the latitude and longitude is shown and then click on <i>upload address</i> option</li>
+                  <li>If AWC building exists and it is open then continue to fill the other field with accurate values.</li>
+
+                  <ol type="i">
+                     <li>Provide total number of Supplementary Nutrition Programme(SNP) Beneficiaries for 1 Month.  </li>
+                     <li>Provide number of Beneficiaries Served With SNP for 1 month. </li>
+                     <li> Total number of children(7<sub>months</sub> to 6<sub>years</sub>)</li>
+                     <li>Number of  children served with morning snacks (7<sub>months</sub> to 6<sub>years</sub>)</li>
+                     <li>Total number of Children(3<sub>years</sub> to 6<sub>years</sub>)  </li>
+                     <li>Number of Children present in (PSE)Pre-School Education  (3<sub>years</sub> to 6<sub>years</sub>) </li>
+                     <li>Number of Registers found during visit for assessment  </li>
+                     <li>Number of Mothers meeting conducted during last month   </li>
+                     <li>Number of children(below 5<sub>years</sub>) weighed last month  </li>
+                     <li>Total number of children(below 5<sub>years</sub>) last month  </li>
+                     <li>Number of malnourished children(below 5<sub>years</sub>) during last month(Moderate)  </li>
+                     <li>Number of malnourished children(below 5<sub>years</sub>) during last month(Severe)  </li>
+                     <li>Whether ECCE(Early Childhood Care and Education) Curriculam is followed </li>
+                  </ol>
+
+                  <li>Click on next Button to move on to the next page.</li>
+                  <li>In the last page,click on the round box to insert image through camera or from phone internal memory.Surely click on the two boxes and then on submit button to submit the data</li>
+            </ol>
+            </marquee>
+        </b>
+        </body>
+        ]]>
+    </string>
+</resources>
+

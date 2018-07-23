@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nic.barun.mobilebasedtrackingmonitaringsystemforicdsmbtmsicds.AllMenuFragment.SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/lightgraycolor"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Update Your Profiles"
+            android:textColor="@color/deepgraycolor"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:hint="phone number update"
+            android:textColorHint="@color/deepblue">
+            <android.support.design.widget.TextInputEditText
+                android:textColor="@color/deepgraycolor"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Ephone"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:inputType="number"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TVemail"
+            android:text="Email:" />
+
+
+
+        <Button
+            android:id="@+id/Bupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/deepblue"
+            android:text="Update Profile"
+            android:inputType="textAutoCorrect"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

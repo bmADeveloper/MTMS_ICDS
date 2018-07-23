@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nic.barun.mobilebasedtrackingmonitaringsystemforicdsmbtmsicds.WorkingPurposeFragment.AboutUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+
+            android:text=" Mobile Based Tracking and Monitoring System for ICDS is an innovative project in joint venture of Jalpaiguri District Administration and National Informatics Centre, govt of India. ICDS is a flagship programme of government of India for development and health care of children. The application has been developed to track and monitor the visit of the supervisors to Anganwadi Centres (AWCs).
+
+                          Mobile Based Tracking and Monitoring System proves to be advantageous in acquiring the accurate report based on the data provided by supervisors from the field and also to get confirmation about the actual visit of the supervisors to AWCs using location tracking system incorporated in the app which tracks the entire location or exact address.
+
+                          The users of Mobile Based Tracking and Monitoring System need to download the Mobile App, supported in Android mobiles only (Android-5.0 Lollipop onward) and then have to register once to become a valid user. A registered member needs to turn on mobile data and remember his/her username and password to login and enter the proper centre code to provide the further details of the particular AWC during the visit.
+                          This login and registration option has been introduced with additional validation to secure the data transaction and to prevent unwanted access. The details about particular AWC include fields like AWC open/close, children in PSE,ECCE curriculum followed/not etc. While submitting the details the latitude, longitude and complete address of particular place, from where data is entered, with current date,
+                              gets hoarded into the database. This app also generate reports project wise, gp/ward wise ,sector wise for DM,ADM,DPO,CDPO  District Administration of Jalpaiguri"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
